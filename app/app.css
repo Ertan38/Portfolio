@@ -1,0 +1,49 @@
+
+.navbar{
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+}
+.nav-link{
+    color: black;
+}
+
+.card{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #dbdbdb;
+}
+  
+.info img{
+    width: 30rem;
+}
+  
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.carousel{
+    width: 50%;
+}
+
+.list{
+    list-style: none;
+}
