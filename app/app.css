@@ -1,4 +1,7 @@
-
+body{
+    background-color: #0F1724;
+    color: #fff;
+}
 .navbar{
     gap: 2rem;
     padding: 2rem;
@@ -9,14 +12,53 @@
     transform: translate3d(0, 0, 0);
 }
 .nav-link{
-    color: black;
+    color: #fff;
+}
+
+.nav-link.show{
+    color: #5265E1 !important;
+}
+
+.nav-link:hover{
+    color: #5265E1;
+    transition: 0.5s;
+}
+
+.carousel-indicators button {
+    border: 2px solid #5265E1 !important; 
+    background-color: transparent !important; 
+    border-radius: 50%; 
+    height: 15px !important; 
+    width: 15px !important;
+    margin: 0 2px;
+}
+
+.carousel-indicators .active {
+    background-color: #5265E1 !important; 
+}
+
+.carousel-control-prev{
+    background-color: #5265E1;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
+.carousel-control-next{
+    background-color: #5265E1;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
 }
 
 .card{
+    background-color: #0F1724;
+    border-color: #5265E1;
     margin-top: 2rem;
     margin-right: 2rem;
 }
 .card-body{
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,13 +70,22 @@
     align-items: center;
     margin: 3rem;
     padding: 3rem;
-    background-color: #dbdbdb;
+    background-color: #1f314d;
 }
   
 .info img{
     width: 30rem;
 }
-  
+ 
+.btn{
+    background-image: #5265E1;
+    border: none;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-image: #5d72ff;
+}
+
 .btn a{
     color: white;
     text-decoration: none;

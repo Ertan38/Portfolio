@@ -17,6 +17,7 @@ const Navbar = () => {
                 <li><Link className="dropdown-item" to={`/projects/${project.id}`}>{project.name}</Link></li>    
               </div>
             ))}
+            <li><hr className="dropdown-divider"/></li>
             <li><Link className="dropdown-item" to="/projects">Alle projecten</Link></li>
           </ul>
         </li>

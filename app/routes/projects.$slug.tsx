@@ -9,6 +9,7 @@ type Project = {
   description: string;
   img: string;
   content: string;
+  link: string;
 };
 
 
