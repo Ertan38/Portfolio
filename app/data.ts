@@ -13,7 +13,7 @@ const projecten = [
     }, 
     {
         id: "2",
-        name: "Project 2",
+        name: "Portfolio",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam neque nisi ullam ut quis optio nam libero qui reprehenderit porro labore dignissimos accusantium consectetur ",
         img: "https://placehold.jp/400x400.png",
         link: "https://github.com/Ertan38/Portfolio",

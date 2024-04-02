@@ -24,6 +24,11 @@ body{
     transition: 0.5s;
 }
 
+.carousel{
+    width: 50%;
+    border: 2px solid #5265E1;
+}
+
 .carousel-indicators button {
     border: 2px solid #5265E1 !important; 
     background-color: transparent !important; 
@@ -42,6 +47,9 @@ body{
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .carousel-control-next{
@@ -49,6 +57,9 @@ body{
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%,-50%);
 }
 
 .card{
@@ -80,9 +91,20 @@ body{
  
 .btn{
     background-image: #5265E1;
-    border: none;
     border-radius: 50px;
 }
+
+.btn-primary{
+    border: none;
+}
+
+.btn-secondary-outline{
+    background-image: #5265E1;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+}
+
+
 .btn:hover{
     background-image: #5d72ff;
 }
@@ -92,10 +114,13 @@ body{
     text-decoration: none;
 }
 
-.carousel{
-    width: 50%;
-}
+
+
 
 .list{
     list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
+

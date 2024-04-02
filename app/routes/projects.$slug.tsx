@@ -29,7 +29,7 @@ export default function Project() {
         <div className="info col-md-8">
           <h2 className="pb-3">{project.name}</h2>
           <p>{project.content}</p>
-          <img className="img-thumbnail" src={project.img} alt="Project example" />
+          <img className="img-thumbnail" src={project.img} loading="lazy" alt="Project example" />
         </div>
       </div>
       <div className="row p-3 justify-content-end">

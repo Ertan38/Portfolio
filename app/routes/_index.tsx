@@ -21,18 +21,10 @@ export default function Index() {
             <button className="btn btn-primary">Download CV</button>
           </div>
           <div className="img col-md-6 d-flex justify-content-end">
-            <img src={profile} className="img-responsive" alt="Homepage" />
+            <img src={profile} className="img-responsive" loading="lazy" alt="Homepage" />
           </div>
         </div>
       </div>
-      {/* <div className="container mt-5">
-        <div className="row">
-          <div className="img col-md-6 d-flex justify-content-start">
-            <img src="https://placehold.jp/500x500.png" className="img-responsive" alt="Homepage" />
-          </div>
-        </div>
-      </div>
-      */}
       <div className="container mt-5">
         <div className="row">
           <h2>Projects</h2>
@@ -48,7 +40,7 @@ export default function Index() {
                 {projecten.map((project, index) => (
                 <div key={project.id} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                   <Link to={`/projects/${project.id}`}>
-                    <img src={project.img} className="w-100" alt="project display" />
+                    <img src={project.img} className="w-100" loading="lazy" alt="project display" />
                   </Link>
                   <div className="carousel-caption d-none d-md-block">
                     <h5>{project.name}</h5>
@@ -69,12 +61,18 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      <div id="about" className="container mt-5">
         <div className="row">
           <h2>About me</h2>
-
         </div>
       </div>
+      <div id="contact" className="container mt-5">
+        <h2>Contact</h2>
+        <h5>contact information</h5>
+        <li className="list bi bi-telephone"> Phone number</li>
+        <li className="list bi bi-envelope"> ertan.ertem@enorm.com</li>
+        <li className="list bi bi-linkedin"><Link to="/" target="blank">Link</Link></li>
+    </div>
     </div>
   );
 }
