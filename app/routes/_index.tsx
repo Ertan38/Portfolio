@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import projecten from "../data";
-
+import profile from "../images/Group 2.png";
 
 export const meta: MetaFunction = () => {
   return [
@@ -14,14 +14,14 @@ export default function Index() {
   return (
     <div className="main container">
       <div className="container mt-5">
-        <div className="row align-items-center">
-          <div className="col-md-6">
+        <div className="row align-items-center justify-content-between">
+          <div className="col-md-4">
             <h1>Home</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ab nobis at, ducimus quidem modi dolor quae illo et non doloribus deserunt laborum a consequuntur illum velit impedit reprehenderit accusantium!</p>
             <button className="btn btn-primary">Download CV</button>
           </div>
           <div className="img col-md-6 d-flex justify-content-end">
-            <img src="https://placehold.jp/500x500.png" className="img-responsive" alt="Homepage" />
+            <img src={profile} className="img-responsive" alt="Homepage" />
           </div>
         </div>
       </div>
