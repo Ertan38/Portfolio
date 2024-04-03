@@ -14,7 +14,7 @@ export default function projects() {
               <p className="card-text">{project.description}</p>
               <div className="col p-3">
                 <button className="btn btn-primary m-2"><Link to={`/projects/${project.id}`}>Bekijk project</Link></button>
-                <button className="btn btn-secondary-outline m-2"><Link to={project.link} target="blank">Bekijk op Github</Link></button>
+                <button className="btn btn-secondary m-2"><Link to={project.link} target="blank">Bekijk op Github</Link></button>
               </div>
             </div>
           </div>

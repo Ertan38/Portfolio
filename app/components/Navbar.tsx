@@ -6,6 +6,7 @@ const Navbar = () => {
     <div className="container">
       <nav className="navbar nav-underline p-3 justify-content-center">
         <Link className="nav-link" aria-current="page" to="/">Home</Link>
+        <Link className="nav-link" to="/leeswijzer">Leeswijzer</Link>
       <div className="navbar-nav">
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="/projects" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -22,12 +23,10 @@ const Navbar = () => {
           </ul>
         </li>
       </div>
-        <Link className="nav-link" to="#about">About</Link>
-        <Link className="nav-link" to="#contact">Contact</Link>
+        <Link className="nav-link" to="/about">About</Link>
+        <Link className="nav-link" to="/contact">Contact</Link>
       </nav>
-    </div>
-
-    
+    </div> 
   );
 };
 

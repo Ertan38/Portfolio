@@ -20,7 +20,10 @@ body{
 }
 
 .nav-link:hover{
-    color: #5265E1;
+    background: linear-gradient(to right, #9413bb, #003ece);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     transition: 0.5s;
 }
 
@@ -28,6 +31,7 @@ body{
     width: 50%;
     border: 2px solid #5265E1;
 }
+
 
 .carousel-indicators button {
     border: 2px solid #5265E1 !important; 
@@ -39,11 +43,13 @@ body{
 }
 
 .carousel-indicators .active {
-    background-color: #5265E1 !important; 
+    background-image: linear-gradient(to right, #760F94, #0037B8);
+    /* background-color: #5265E1 !important;  */
 }
 
 .carousel-control-prev{
-    background-color: #5265E1;
+    /* background-color: #5265E1; */
+    background-image: linear-gradient(to right, #760F94, #0037B8);
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
@@ -53,7 +59,8 @@ body{
 }
 
 .carousel-control-next{
-    background-color: #5265E1;
+    /* background-color: #5265E1; */
+    background-image: linear-gradient(to right, #760F94, #0037B8);
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
@@ -61,6 +68,8 @@ body{
     top: 50%;
     transform: translate(50%,-50%);
 }
+
+
 
 .card{
     border: 2px solid #5265E1;
@@ -90,23 +99,17 @@ body{
 }
  
 .btn{
-    background-image: #5265E1;
     border-radius: 50px;
+    padding: 1rem 3rem 1rem 3rem;
+    background-image: linear-gradient(to right, #760F94, #0037B8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
 }
-
-.btn-primary{
-    border: none;
-}
-
-.btn-secondary-outline{
-    background-image: #5265E1;
-    border: 2px solid #FFF;
-    border-radius: 50px;
-}
-
 
 .btn:hover{
-    background-image: #5d72ff;
+    background-image: linear-gradient(to right, #8511a8, #0040d7);
+    transition: transform 0.5s ease-in-out;
+
 }
 
 .btn a{
@@ -114,13 +117,14 @@ body{
     text-decoration: none;
 }
 
+.btn-primary{
+    border: none;
+}
 
-
-
-.list{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+.btn-secondary{
+    background-color: #0F1724 !important;
+    background-image: unset !important;
+    border: 2px solid #FFF;
+    border-radius: 50px;
 }
 

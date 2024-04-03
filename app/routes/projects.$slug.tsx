@@ -28,13 +28,13 @@ export default function Project() {
       <div className="row justify-content-center ">
         <div className="info col-md-8">
           <h2 className="pb-3">{project.name}</h2>
-          <p>{project.content}</p>
-          <img className="img-thumbnail" src={project.img} loading="lazy" alt="Project example" />
+          <div dangerouslySetInnerHTML={{ __html: project.content }} />
+          <img className="img-responsive mt-5" src={project.img} loading="lazy" alt="Project example" />
         </div>
       </div>
-      <div className="row p-3 justify-content-end">
-        <div className="col-md-3">
-          <button className="btn btn-primary"><Link to="/projects">Back</Link></button>
+      <div className="row p-3 justify-content-center">
+        <div className="col-md-3 d-flex justify-content-center">
+          <button className="btn btn-primary"><Link to="/projects">Alle projecten</Link></button>
         </div>
       </div>
     </div>
