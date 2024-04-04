@@ -12,8 +12,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="main container">
-      <div className="container mt-5">
+    <div className="main">
+      <div className="container my-5">
         <div className="row align-items-center justify-content-between">
           <div className="col-md-4">
             <h1>Home</h1>
@@ -25,7 +25,10 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className="banner">
+        <img src="https://placehold.jp/1920x500.png" loading="lazy" alt="banner" />
+      </div>
+      <div className="container my-5">
         <div className="row">
           <h2>Projects</h2>
           <div className="col-md-12 d-flex justify-content-center">
@@ -61,12 +64,12 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div id="about" className="container mt-5">
+      <div id="about" className="container my-5">
         <div className="row">
           <h2>About me</h2>
         </div>
       </div>
-      <div id="contact" className="container mt-5">
+      <div id="contact" className="container my-5">
         <h2>Contact</h2>
         
     </div>

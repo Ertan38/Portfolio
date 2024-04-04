@@ -7,10 +7,12 @@ body{
     padding: 2rem;
     justify-content: center;
 }
+
 .navbar-nav .dropdown-menu {
     position: absolute;
     transform: translate3d(0, 0, 0);
 }
+
 .nav-link{
     color: #fff;
 }
@@ -18,6 +20,8 @@ body{
 .nav-link.show{
     color: #5265E1 !important;
 }
+
+
 
 .nav-link:hover{
     background: linear-gradient(to right, #9413bb, #003ece);
@@ -127,4 +131,13 @@ body{
     border: 2px solid #FFF;
     border-radius: 50px;
 }
+.form {
+    margin-left: 5rem;
+}
+.form-control{
+    margin-bottom: 1.5rem;
+}
 
+.contact{
+    background-color: #223451;
+}

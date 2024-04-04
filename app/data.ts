@@ -13,7 +13,7 @@ const projecten = [
     }, 
     {
         id: "2",
-        name: "Portfolio",
+        name: "Portfolio requirements",
         description: "Dit document beschrijft de functionele, niet-functionele en technische eisen voor de ontwikkeling van mijn persoonlijke portfolio website.",
         img: port,
         link: "https://github.com/Ertan38/Portfolio",
@@ -91,10 +91,34 @@ const projecten = [
         <h3>3.2 Schaalbaarheid</h3>
         <p>De websitearchitectuur moet schaalbaar zijn om gemakkelijk nieuwe projecten of pagina's toe te voegen.</p>
 
-        <h2>4. Levering</h2>
+
+        <h2>4. Technische Eisen</h2>
+        <h3>4.1 Front-end</h3>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <h3>4.2 Back-end</h3>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <h2>5. SEO Eisen</h2>
+        <h3>5.1 Optimalisatie</h3>
+        <ul>
+            <li>Zorg voor SEO-vriendelijke URL's, meta tags voor titel en beschrijving, en alt tags voor afbeeldingen.</li>
+            <li>Implemteer schema markup voor een betere zoekmachineherkenning en mogelijke rich snippets in zoekmachine.</li>
+        </ul>
+        <h3>5.2 Snelheid en Mobiele optimalisatie</h3>
+        <ul>
+            <li>Optimaliseer afbeeldingen en gebruik lazy loading om de laadtijden te versnellen.</li>
+            <li>Gebruik van Google's PageSpeed Insights om mobiele prestaties te testen en te verbeteren.</li>
+        </ul>
+        <h2>6. Levering</h2>
         <ul>
             <li>Project Planning: De website moet binnen 6 weken af zijn.</li>
-            <li>Hosting: De website moet worden gehost op een betrouwbaar platform dat HTTPS ondersteunt.</li>
+            <li>Documentatie: Er wordt voorzien van een uitgebreide documentatie over het project, de code en gebruikte technologieen.</li>
         </ul>
          `
     }, 
